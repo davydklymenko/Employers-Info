@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+.search-panel {
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 1px;
+    background-color: rgb(13, 112, 205);
+    border-radius: 15px;
+}
+
+.search {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 5px;
+    border: solid white;
+    height: 40px;
+    width: 100%;
+}
