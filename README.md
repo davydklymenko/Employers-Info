@@ -1,5 +1,5 @@
 # The project layout 
-<img src="/github materials/project.jpg" height="400px" width="728"/>
+<img src="/github materials/project.jpg" height="500px" width="728"/>
 
 # About
 Project have name 'Employers Info' bacause you can look all the employers, 
