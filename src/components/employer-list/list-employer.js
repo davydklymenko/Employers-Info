@@ -1,11 +1,17 @@
 import ListItems from "../employer-list-items/employer-list-items";
 import './list-employer.css';
 
-function EmployersListItemAdd({data}) {
+function EmployersListItemAdd({data, onDelete, onToogleIncrease,onToogleLike }) {
     
    const elements = data.map(item => {
+        const {id, ...itemProps} = item;
         return(
-            <ListItems name={item.name} salary={item.salary} increase={item.increase}/>
+            <ListItems key={id}
+                       {...itemProps}
+                       onDelete={() => onDelete(id)}
+                       onToogleIncrease={() => onToogleIncrease(id)}
+                       onToogleLike={() => onToogleLike(id)}
+                       />
         )
    })
 
