@@ -1,11 +1,12 @@
 import './app-info.css';
 
-function AppInfo() {
+function AppInfo({name, increase, like}) {
     return (
         <div className="app-info">
             <h1>Список Інформації Роботодавців в N</h1>
-            <h2>Кількість Роботодавців: </h2>
-            <h3>Кількість премій: </h3>
+            <h2>Кількість роботодавців: {name}</h2>
+            <h3>Кількість премій: {increase}</h3>
+            <h4>Кількість улюблених: {like}</h4>
         </div>
     );
 }
