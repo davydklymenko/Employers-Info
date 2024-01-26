@@ -1,27 +1,32 @@
 import './app-filter.css';
 
-function AppFilter() {
-    return(
-        <div className="whapper">
-            <button
-             className="btn btn-light" 
-             type="button">
-                Всі роботодавці
-             </button>
+function AppFilter(props) {
+   const buttonsData = [
+      {name:'all', label:'Всі роботодавці'},
+      {name:'like', label:'Улюблені'},
+      {name:'moreThan1000', label:'З/П більше 1000$'},
+      {name:'bonus', label:'Всі хто з преміями'}
+   ];
 
-             <button
-             className="btn btn-outline-light" 
-             type="button">
-                На підвищені 
-             </button>
+   const buttons = buttonsData.map(({name, label}) => {
+      const active = props.filter === name;
+      const clazz = active ? 'btn-light' : 'btn-outline-light';
+      return (
+         <button
+              type="button"
+              className={`btn ${clazz}`} 
+              key={name}
+              onClick={() => props.onFilterSelect(name)}>
+              {label}
+              </button>
+      );
+   })
 
-             <button
-             className="btn btn-outline-light" 
-             type="button">
-                З/П більше 1000$
-             </button>
-        </div>
-    );
+      return(
+         <div className="whapper">
+            {buttons}
+         </div>
+      );
 }
 
 export default AppFilter;
