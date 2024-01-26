@@ -1,19 +1,19 @@
 # The project layout 
-<img src="/github materials/project.jpg" height="500px" width="788"/>
+<img src="/github materials/layout.jpg" height="500px" width="888"/>
 
 # About
-Project have name 'Employers Info' bacause you can look all the employers, 
+The project has the name 'Employers Info' because you can look at all the employers, 
 which works at company <b>N</b>. 👀💻🏢 
 
-You have to control all employers in company (maybe feel you are become a HR-manager) and you can do more things with employers. 
-What you can do? <i>Read more</i> ⬇
+You have to control all employers in the company (maybe feel you become a manager) and you can do more things with employers. 
+What can you do? <i>Read more</i> ⬇
 
 
-# What you can do?
-You can search the employer u want and filter to see all the emloyers, increase employers and salary more than 1000 dollars.
+# What can you do?
+You can search for the employer you want and filter to see all the employers, favorite employers, salary more than 1000 dollars, and with bonus.
 
-Add employers to the site. Make favorite or remove the employer u want
+Add employers to the site. Make your favorite or remove the employer you want
 
 # Note
-P.S Company N is not exist)
-Don't Forget to create node_modules
+P.S Company N does not exist)
+Don't forget to create node_modules
