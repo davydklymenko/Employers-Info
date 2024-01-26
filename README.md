@@ -1,5 +1,5 @@
 # The project layout 
-<img src="/github materials/layout.jpg" height="500px" width="888"/>
+<img src="/github materials/layout.jpg" height="500px" width="808"/>
 
 # About
 The project has the name 'Employers Info' because you can look at all the employers, 
