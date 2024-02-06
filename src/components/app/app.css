@@ -2,3 +2,9 @@
     margin: 0 auto;
     max-width: 1000px;
 }
+
+@media (max-width:580px) {
+    body {
+        flex-direction: column;
+    }
+}

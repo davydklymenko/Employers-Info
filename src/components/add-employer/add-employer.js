@@ -1,6 +1,6 @@
 import { Component } from 'react'
 
-import './add-employer.css';
+import './add-employer.scss';
 
 class AddEmployer extends Component {
     constructor(props) {
@@ -44,7 +44,8 @@ class AddEmployer extends Component {
                     name='name'
                     value={name}
                     onChange={this.onValueChange}
-                    placeholder="Ім'я" />
+                    placeholder="Ім'я"
+                     />
     
                     <input 
                     type="number" 
@@ -57,7 +58,8 @@ class AddEmployer extends Component {
     
                 <button type="submit" 
                         className="btn btn-outline-light"
-                        onClick={this.onSubmit}>Додати</button>
+                        onClick={this.onSubmit}
+                        >Додати</button>
             </div>
         )
     }
