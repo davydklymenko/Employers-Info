@@ -16,4 +16,7 @@ Add employers to the site. Make your favorite or remove the employer you want
 
 # Note
 P.S Company N does not exist)
-Don't forget to create node_modules
+Don't forget to start the development server and node_modules created
+code: 
+cd *file name* 
+npm start 
